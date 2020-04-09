@@ -10,10 +10,10 @@ public class main {
         char choice;
         int nid;
         Scanner sc= new Scanner (System.in);
-        System.out.println("Card for : \n\n1.Adult\n2.infant\n3.Forigner\\Enter Your Choice : ");
+        System.out.println("Card for : \n\n1.Adult\n2.Forigner\n3.Infant\nEnter Your Choice : ");
         choice=sc.nextLine().charAt(0);
         
-        if(choice =='1'|| choice =='2' || choice == '3'){
+        /*if(choice =='1'|| choice =='2' || choice == '3'){
             System.out.println("Enter Your Name : ");
             name = sc.nextLine();
             System.out.println("Enter Your Gender : ");
@@ -21,8 +21,17 @@ public class main {
             System.out.println("Enter Your Age : ");
             age= sc.nextLine();
             System.out.println("Enter Your Nationality : ");
-            nationality=sc.nextLine();
+            nationality=sc.nextLine();*/
+        
             if(choice== '1'){
+                System.out.println("Enter Your Name : ");
+            name = sc.nextLine();
+            System.out.println("Enter Your Gender : ");
+            gender= sc.nextLine();
+            System.out.println("Enter Your Age : ");
+            age= sc.nextLine();
+            System.out.println("Enter Your Nationality : ");
+            nationality=sc.nextLine();
             
             System.out.println("Enter Your NID : ");
             nid= sc.nextInt();
@@ -31,6 +40,14 @@ public class main {
         }
         
         else if(choice =='2'){
+            System.out.println("Enter Your Name : ");
+            name = sc.nextLine();
+            System.out.println("Enter Your Gender : ");
+            gender= sc.nextLine();
+            System.out.println("Enter Your Age : ");
+            age= sc.nextLine();
+            System.out.println("Enter Your Nationality : ");
+            nationality=sc.nextLine();
             
             System.out.println("Enter Your Passport No : ");
             passportno= sc.nextLine();
@@ -38,6 +55,14 @@ public class main {
             bideshi_manush.getinformation();
         }
         else if(choice == '3'){
+            System.out.println("Enter Your Name : ");
+            name = sc.nextLine();
+            System.out.println("Enter Your Gender : ");
+            gender= sc.nextLine();
+            System.out.println("Enter Your Age : ");
+            age= sc.nextLine();
+            System.out.println("Enter Your Nationality : ");
+            nationality=sc.nextLine();
             System.out.println("Enter Your Birth Certificate No : ");
             birthcertificateno= sc.nextLine();
             System.out.println("Enter Your Parent's NID No : ");
@@ -46,7 +71,7 @@ public class main {
            baby.getinformation(); 
         }
         System.out.println("Registration Complete.");
-        }
+        
     }
     
 }

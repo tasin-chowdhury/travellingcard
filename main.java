@@ -45,7 +45,7 @@ public class main {
            Infant baby= new Infant(name,gender,age,nationality,birthcertificateno,parentsnidno);
            baby.getinformation(); 
         }
-        
+        System.out.println("Registration Complete.");
         }
     }
     

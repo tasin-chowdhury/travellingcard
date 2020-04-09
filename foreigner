@@ -1,0 +1,18 @@
+package travellingcard;
+
+public class foreigner extends Person {
+     private  String passportNo;
+     
+     public foreigner(String name, String gender, String age, String nationality,String passportNo){
+         super(name,gender,age,nationality);
+         this.passportNo = passportNo;
+     }
+     public void setpassportNo(String passportNo){
+         this.passportNo=passportNo;
+     }
+     public void getpassportNo(){
+            System.out.println("Name is : "+name+"\ngSystem.outender is "+gender +"\nage is "+age +"\nnationality is "+nationality);
+            System.out.println(name+"'s passport no : "+ passportNo);
+
+     }
+}

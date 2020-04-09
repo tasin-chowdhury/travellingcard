@@ -11,8 +11,9 @@ public class foreigner extends Person {
          this.passportNo=passportNo;
      }
      public void getpassportNo(){
-            System.out.println("Name is : "+name+"\ngSystem.outender is "+gender +"\nage is "+age +"\nnationality is "+nationality);
-            System.out.println(name+"'s passport no : "+ passportNo);
+            System.out.println("Name is : "+name+"\nGender is "+gender +"\nAge is "+age +"\nNationality is "+nationality);
+            System.out.println(name+"'s Passport no : "+ passportNo);
 
      }
 }
+  

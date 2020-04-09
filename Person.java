@@ -21,7 +21,7 @@ class Person {
         this.nationality=nationality;
     }
     public void getinformation(){
-         System.out.println("Name is : "+name+"\ngender is "+gender +"\nage is "+age +"\nnationality is "+nationality);
+         System.out.println("Name is : "+name+"\nGender is "+gender +"\nAge is "+age +"\nNationality is "+nationality);
     }
     
 }

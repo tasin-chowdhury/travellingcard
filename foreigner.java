@@ -7,13 +7,13 @@ public class foreigner extends Person {
          super(name,gender,age,nationality);
          this.passportNo = passportNo;
      }
-     public void setpassportNo(String passportNo){
+     /*public void setpassportNo(String passportNo){
          this.passportNo=passportNo;
-     }
-     public void getpassportNo(){
+     }*/
+     @Override
+     public void getinformation(){
             System.out.println("Name is : "+name+"\nGender is "+gender +"\nAge is "+age +"\nNationality is "+nationality);
-            System.out.println(name+"'s Passport no : "+ passportNo);
+            System.out.println("Your Passport no : "+ passportNo);
 
      }
 }
-  

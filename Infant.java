@@ -15,8 +15,8 @@ public class Infant extends Person {
     }
     @Override
     public void getinformation(){
-        System.out.println("Name is : "+name+"\ngender is "+gender +"\nage is "+age +"\nnationality is "+nationality);
-        System.out.println(name+"'s Birth Certificate No : "+Birthcertificate +"\n"+name+ "'s parent NID No :"+parentNID);
+        System.out.println("Name is : "+name+"\nGender is "+gender +"\nAge is "+age +"\nNationality is "+nationality);
+        System.out.println(name+"'s Birth Certificate No : "+Birthcertificate +"\n"+name+ "'s Parent NID No :"+parentNID);
     }
     
 }
